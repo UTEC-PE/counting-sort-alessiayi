@@ -11,8 +11,8 @@ void print(int numbers[], int size){
 };
 
 void countingSort(int numbers[], int size){
-  int min=*min_element(numbers,(numbers+size));
-  int index=(*max_element(numbers,(numbers+size)) - min)+1;
+  int min=*min_element(numbers,(numbers+size)); // Qué es min_element? 
+  int index=(*max_element(numbers,(numbers+size)) - min)+1; // Qué es max_element?
   int arr[index];
   for (int i=0; i<index; i++){
     arr[i]=0;
